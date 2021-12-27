@@ -10,6 +10,7 @@ else {
     sequelize = new Sequelize(process.env.DB_NAME, process.env.Db_USER, process.env.DB_PW, {
         host: 'localhost',
         dialect: 'mysql',
+        password: 'password',
         port: 3306
     });
 }
